@@ -39,7 +39,7 @@ body {
 	padding: 2rem; /* Using rem values as they don't cascade like em units and are not fixed units like pixels */
 
 	/*background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url('https://source.unsplash.com/random');*/ /* Multiple Background images, semi-transparent gradient used as a fallback for Edge */
-	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url('./img/Broadwaytower.jpg'); /* Multiple Background images, semi-transparent gradient used as a fallback for Edge */
+	background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.6)), url('./img/2011autorretrato.jpg'); /* Multiple Background images, semi-transparent gradient used as a fallback for Edge */
 	background-position: center center;
 	background-size: cover;
 }
@@ -47,7 +47,7 @@ body {
 @supports(background-blend-mode: multiply) { /* Use a blend mode on the background in browser that support it */
 
 	body {
-		background-image: linear-gradient(#4A4A4A, #212121), url('./img/Broadwaytower.jpg'); /* Multiple background images, Gradient overlay and the Image */
+		background-image: linear-gradient(#4A4A4A, #212121), url('./img/2011autorretrato.jpg'); /* Multiple background images, Gradient overlay and the Image */
 		background-blend-mode: multiply; /* Blending the Gradient with the Background Image (can't use black to blend) */
 	}
 
@@ -74,7 +74,7 @@ h1 {
 	.card__image-container {
 		max-height: 15rem; /* Stop the image getting too big */
 
-		background-image: url('./img/Broadwaytower.jpg');
+		background-image: url('./img//2011autorretrato.jpg');
 		background-size: cover; /* Force the background image to cover the container */
 		background-position: center center; /* Position the image in the middle */
 	}

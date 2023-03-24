@@ -121,7 +121,7 @@ body {
 
 .main{
   padding-top: 40px;
-  max-width: 1200px;
+  max-width: 1600px;
   margin: 0 auto;
 }
 
@@ -177,7 +177,7 @@ img:hover {
 }
 
 @media (min-width: 70rem) {
-    .cards_item {
+    .cards_item {      
       width: 60%;
     }}
 
