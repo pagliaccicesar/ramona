@@ -18,6 +18,8 @@
 /* Import Font Awesome - Short URL (http://srt.lt/p2b4) */
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint);
+
 *,
 *::before,
 *::after {
@@ -25,7 +27,8 @@
 }
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family:'Finger Paint';
+	/*font-family: 'Roboto', sans-serif;*/
 	font-size: 16px; /* Our base font-size */
 	line-height: 1.75; /* Line height assumes an almost rem value but is dynamic to the font-size */
 	font-weight: 300; /* Use the included weight */
@@ -54,7 +57,8 @@ body {
 }
 
 h1 {
-	font-family: 'Roboto Slab', serif; /* Use google font included as headline font */
+	font-family:'Finger Paint';
+	/*font-family: 'Roboto Slab', serif;*/ /* Use google font included as headline font */
 	font-weight: 700; /* We've only included 700 */
 	font-size: 2.25rem; /* 36px based on 16px base font size */
 	line-height: 1.3333; /* Based on 36px font size and a 48px line-height */
