@@ -1,12 +1,3 @@
-/////
-//
-// Title: Fullscreen Menu with jQuery and Flexbox
-// Author: Steven Roberts
-//
-/////
-
-// Functions
-
 function openMenu() {
     $('.js-menu-container').addClass('is-open'); // Find element with the class 'js-menu-container' and apply an additional class of 'is-open'
 }
@@ -68,4 +59,4 @@ $(".img").mousemove(function(event){
   $(".img").mouseout(function(){
     $(this).css("transform", "translate(0px,0px)");
   });
-  
+

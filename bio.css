@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint);
+
+:root {
+    --primary-color-hue: 220;
+    --hero-font-weight: 600;
+  }
+  
+  body {
+    font-family: "General Sans", sans-serif;
+    background-color: hsla(var(--primary-color-hue), 60%, 40%, 1);
+    color: #fff;
+  }
+  
+  header {
+    position: relative;
+    background-color: hsla(var(--primary-color-hue), 40%, 15%, 0.25);
+    padding: clamp(8rem, -4.521739130434783rem + 55.65217391304348vw, 20rem) 5% clamp(2.5rem, -0.23913043478260887rem + 12.173913043478262vw, 6rem) 5%;
+    overflow: hidden;
+    box-shadow: inset 0px -24px 24px -12px hsla(var(--primary-color-hue), 60%, 20%, 0.2);
+  }
+  header > *:not(img) {
+    max-width: 46rem;
+    margin: 0 auto;
+  }
+  header h1 {
+    font-family:'Finger Paint';
+    font-size: clamp( 2.5rem, 0.04347826086956519rem + 8.695652173913043vw, 4.5rem );
+    font-weight: var(--hero-font-weight);
+    color: #fff;
+    margin-bottom: 0.2em;
+    letter-spacing: var(--hero-letter-spacing);
+  }
+  
+  header p {
+    font-size: clamp( 1.25rem, 1.0543478260869565rem + 0.8695652173913043vw, 1.5rem );
+    color: #fff;
+    line-height: 1.4;
+  }
+  header img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+
+  /*****   inicio    *******/
+  .www {
+    width: 65%;
+    height:auto;  
+  }
+  
+  .mail {
+    width: 65%;
+    height:auto;  
+  }
+  
+  .ws {
+      position: fixed; 
+      right: 3px; /* Establecemos la barra en la izquierda */
+      top: 530px; /* Bajamos la barra 530px de arriba a abajo */
+      z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+  }
+  
+  .ws ul {
+          list-style: none;
+  }
+  
+  .ws ul li a {
+          display:inline-block;
+          color:#fff;
+          /*background: #000;*/
+          padding: 35px 35px;
+          text-decoration: none;
+          -webkit-transition:all 500ms ease;
+          -o-transition:all 500ms ease;
+          transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+  }  
+  
+  .ws ul li .icon-mail2 {background-image: url(./img/inicio.png)}      
+  
+  .ws ul li a:hover {
+          /*background:white; /* Cambiamos el fondo cuando el usuario pase el mouse */
+          transform: scale(1.1);
+            text-decoration: none;
+           /*box-shadow: 0 0px 25px coral;*/
+          /*padding: 21px 22px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+  
+  }
+  /*@media (max-width: 800px) {
+      .ws ul li .icon-mail2 {        
+          padding: 20px 20px;     
+      }
+      .ws li .icon-mail2 {
+         padding: 21px 22px;
+      }
+  
+  }*/
+
+
+
+
+
+
+
+  
+  .page-content {
+    max-width: 46rem;
+    margin: clamp(2rem, 0.4347826086956521rem + 6.956521739130435vw, 4rem) auto;
+    padding: 0 15% 0 15%;
+  }
+  .page-content p {
+    font-size: clamp( 1rem, 0.8043478260869565rem + 0.8695652173913043vw, 1.25rem );
+    line-height: 1.6;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    opacity: 0.9;
+    filter: blur(0.1px);
+  }
+  .page-content h3 {
+    font-family:'Finger Paint';
+    font-size: clamp( 1.25rem, 0.6630434782608696rem + 2.608695652173913vw, 2rem );
+    font-weight: 600;
+    margin-top: 1.25em;
+    margin-bottom: 0.75em;
+  }
