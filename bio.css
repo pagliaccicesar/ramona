@@ -44,6 +44,12 @@
     object-fit: cover;
     z-index: -1;
   }
+  .icono {
+    position: relative;
+    width: 7%;
+    height: auto;
+   
+  }
 
 
   /*****   inicio    *******/
