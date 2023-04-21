@@ -48,7 +48,7 @@ body {
 
 }
 .icono {
-	width: 25%;
+	width: 20%;
 	height: auto;
 	align-content: center;
 }
@@ -164,6 +164,14 @@ h1 {
     content: '\f16d'; /* Unicode value for the twitter icon in our chosen icon font */
 }
 
+
+
+.icon--envelope-o::before {
+    content: '\f003'; /* Unicode value for the twitter icon in our chosen icon font */
+}
+
+
+
 .icon--facebook::before {
     content: '\f09a'; /* Unicode value for the facebook icon in our chosen icon font */
 }
@@ -179,6 +187,24 @@ h1 {
 .social-button--twitter:hover {
     background-color: #d633aa; /* Twitter hover colour */
 }
+
+
+
+
+
+.social-button--envelope-o {
+    background-color: #33d6ce; /* Twitter colour */
+}
+
+.social-button--envelope-o:hover {
+    background-color: #33d6ce; /* Twitter hover colour */
+}
+
+
+
+
+
+
 
 .social-button--facebook {
     background-color: #4b70ab; /* Facebook colour */
