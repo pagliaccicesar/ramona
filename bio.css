@@ -22,7 +22,7 @@
     max-width: 46rem;
     margin: 0 auto;
   }
-  header h1 {
+  header h1  {
     font-family:'Finger Paint';
     font-size: clamp( 2.5rem, 0.04347826086956519rem + 8.695652173913043vw, 4.5rem );
     font-weight: var(--hero-font-weight);
@@ -50,6 +50,8 @@
     height: auto;
    
   }
+
+ 
 
 
   /*****   inicio    *******/
