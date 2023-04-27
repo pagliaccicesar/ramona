@@ -235,9 +235,19 @@ footer label {
   flex-direction: column;
   justify-content: center; 
   font-size: 80%;
-  text-decoration: none;
-  
+  text-decoration: none;  
 }
+
+.cabecera {
+  color: black;
+  font-size: .8rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  /*text-transform: capitalize;*/
+  text-align: justify;
+  margin:5px;
+}
+
 a:link, a:visited,  a:hover, a:active {
   text-decoration: none;
 }
