@@ -205,10 +205,10 @@ img:hover {
   overflow: hidden;
 }
 
-/*.card_content {
+.card_content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, #e37703 40%, #e37703 100%);
-}*/
+  background: linear-gradient(to bottom left, white 40%, white 100%);
+}
 
 .card_title {
   color: black;
@@ -228,14 +228,16 @@ img:hover {
 }
 
 footer label {
+  color: black;
   height: 50px;
   width: 100%;
+  font-family: "General Sans", sans-serif;  
   display: flex;
   align-items: center;
   text-align: center;
   flex-direction: column;
   justify-content: center; 
-  font-size: 80%;
+  font-size: 90%;
   text-decoration: none;  
 }
 
