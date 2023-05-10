@@ -1,0 +1,311 @@
+@import url(https://fonts.googleapis.com/css?family=Finger+Paint);
+:root {
+    --font-size-body: clamp(1.31rem, calc(1rem + 0.37vw), 1.5rem);
+    --font-size-h3: clamp(1.73rem, calc(1rem + 2.35vw), 2.93rem);
+    --font-size-h1: clamp(2.07rem, calc(1rem + 3.1vw), 3.66rem);
+}
+  
+{
+    box-sizing: border-box;
+}  
+  
+body {
+    margin: 0;
+    padding: 0;         
+    font-family:'Finger Paint';     
+} 
+    
+.btn-neon{
+       position: relative;
+       display: inline-block;
+       padding: 15px 30px; 
+       color: #a945c7;   
+       font-family:'Finger Paint';     
+       letter-spacing: 2px;
+       text-decoration: none;
+       font-size: 24px;
+       overflow: hidden;
+       transition: 0.2s;
+}
+.btn-neon:hover{       
+       background: #e37703 ;
+       box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+       transition-delay: .5s;
+}
+.btn-neon span{
+       position: absolute;
+       display: block;
+}
+#span1{
+       top: 0;
+       left: -100%;
+       width: 100%;
+       height: 2px;
+       background: linear-gradient(90deg, transparent,#a945c7);
+}
+.btn-neon:hover #span1{
+       left: 100%;
+       transition: 1s;
+}
+#span3{
+       bottom: 0;
+       right: -100%;
+       width: 100%;
+       height: 2px;
+       background: linear-gradient(270deg, transparent,#a945c7);
+}
+.btn-neon:hover #span3{
+       right: 100%;
+       transition: 1s;
+       transition-delay: 0.5s;
+}
+#span2{
+       top: -100%;
+       right: 0;
+       width: 2px;
+       height: 100%;
+       background: linear-gradient(180deg,transparent,#a945c7);
+}
+.btn-neon:hover #span2{
+       top: 100%;
+       transition: 1s;
+       transition-delay: 0.25s;
+}
+#span4{
+       bottom: -100%;
+       left: 0;
+       width: 2px;
+       height: 100%;
+       background: linear-gradient(360deg,transparent,#a945c7);
+       
+}
+.btn-neon:hover #span4{
+       bottom: 100%;
+       transition: 1s;
+       transition-delay: 0.5s;
+}
+
+/*   casita de incicio  */
+
+    .ws {
+        position: fixed; 
+        right: 3px; /* Establecemos la barra en la izquierda */
+        top: 45px; /* Bajamos la barra 45px de arriba a abajo */
+        z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+    }
+    
+    .ws ul {
+            list-style: none;
+    }
+    
+    .ws ul li a {
+            display:inline-block;
+            color:#fff;
+            /*background: #000;*/
+            padding: 35px 35px;
+            text-decoration: none;
+            -webkit-transition:all 500ms ease;
+            -o-transition:all 500ms ease;
+            transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+    }  
+    
+    .ws ul li .icon-mail2 {background-image: url(./img/inicio.png)}      
+    
+    .ws ul li a:hover {
+            /*background:white; /* Cambiamos el fondo cuando el usuario pase el mouse */
+            transform: scale(1.1);
+              text-decoration: none;
+             /*box-shadow: 0 0px 25px coral;*/
+            /*padding: 21px 22px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+    
+    }
+    /*@media (max-width: 800px) {
+        .ws ul li .icon-mail2 {        
+            padding: 20px 20px;     
+        }
+        .ws li .icon-mail2 {
+           padding: 21px 22px;
+        }
+    
+    }*/
+  
+    .container {
+      
+      font-size: 0;
+      width: 100%;
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .cabecera {
+        color: black;
+        font-size: .8rem;
+        font-weight: 500;
+        letter-spacing: 1px;  
+        text-align:justify;
+        margin:5px;
+    }
+      
+    a:link, a:visited,  a:hover, a:active {
+        text-decoration: none;
+    }  
+    
+    h4 {
+        color:black;
+        font-family: 'Finger Paint' ;
+    }  
+  
+    
+  /* Design */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  html {
+      
+      background-color: #fffcf8;   
+  }
+  
+  body {
+    background-image: linear-gradient(45deg, #8a0067 0%, #8a0067 11%, #8a0067 22%, #b8005f 33%, #db0054 44%, #f63741 56%, #ffbf00 67%, #ffbf00 78%, #ffbf00 89%, #ffea00 100%);
+    font-color: #666;
+    font-family: var(--font-family, system-ui, sans-serif);    
+    font-size: var(--font-size-body);
+    padding-block: 1rem;
+    color: #272727;
+    font-family: system-ui, sans-serif;    
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    padding: 1rem;
+  }
+  
+  .main{
+    padding-top: 10px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  
+  img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  
+  img:hover {
+      cursor: pointer;
+     
+  }
+  
+  .btn {
+    color: #ffffff;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+  }
+  
+  .btn:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap:wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    color: black;
+    font-size: small;
+  }
+  
+  .cards_item {
+    display: flex;
+    padding: 1rem;
+  }
+  
+  @media (min-width: 70rem) {
+      .cards_item {      
+        width: 60%;
+      }}
+  
+  @media (min-width: 40rem) {
+    .cards_item {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 56rem) {
+    .cards_item {      
+      width: 50%;
+    }
+  }
+  
+  
+  
+  .card {   
+    background-color: #fffcf8;
+    border-radius: 0.5rem;    
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .card_content {
+    padding: 1rem;
+    background: linear-gradient(to bottom left, white 40%, white 100%);
+  }
+  
+  .card_title {
+    color: black;
+    font-size: 1.0rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin: 0px;
+  }
+  
+  .card_text {
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;    
+    font-weight: 400;
+  }
+
+  @media (max-width: 800px) {
+    .card_title {
+        font-size: 0.8rem;    }
+  }
+
+  footer label {
+    color: black;
+    height: 50px;
+    width: 100%;
+    font-family: "General Sans", sans-serif;  
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center; 
+    font-size: 70%;
+    text-decoration: none;  
+  }  
+  
+  footer label:hover {
+    cursor: pointer;
+  }
+  
+  

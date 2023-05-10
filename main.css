@@ -373,6 +373,11 @@ h1 {
 		padding: 0; /* Remove default padding */
 	}
 
+	.fullscreen-menu__nav li {
+		display: block;
+		color: rgb(33, 9, 248);
+	} 
+
 	.fullscreen-menu__nav a {
 		display: block; /* Span the whole width */
 		font-size: 1.4rem; /* Increase the default font size */
@@ -386,7 +391,8 @@ h1 {
 	.fullscreen-menu__nav a:hover,
 	.fullscreen-menu__nav a:focus,
 	.fullscreen-menu__nav a:active {
-		color: #332F21; /* Darken the text colour on hover */
+		color: #332F21;
+
 	}
 
 .fullscreen-menu [class^="social-button"] {

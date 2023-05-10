@@ -245,8 +245,7 @@ footer label {
   color: black;
   font-size: .8rem;
   font-weight: 500;
-  letter-spacing: 1px;
-  /*text-transform: capitalize;*/
+  letter-spacing: 1px; 
   text-align:justify;
   margin:5px;
 }
