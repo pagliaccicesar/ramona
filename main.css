@@ -265,7 +265,7 @@ h1 {
 
 .menu-icon {
 	position: relative; /* Give the menu-icon position relative so we can absolutely position children */
-    width: 2rem; /* Icon width */
+    width: 1.5rem; /* Icon width */
 	height: 1.5rem; /* Icon height */
 }
 
@@ -397,8 +397,8 @@ h1 {
 
 .fullscreen-menu [class^="social-button"] {
 	margin: 0 0.5rem; /* Add a larger margin between the social buttons in the menu overlay */
-	height: 3.75rem; /* Increase the size of the social buttons */
-    width: 3.75rem; /* Increase the size of the social buttons */
+	height: 2.75rem; /* Increase the size of the social buttons */
+    width: 2.75rem; /* Increase the size of the social buttons */
     font-size: 1.5rem; /* Increase the size of the social icon inside the button */
 }
 
