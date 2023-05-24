@@ -5,7 +5,7 @@
     --font-size-h1: clamp(2.07rem, calc(1rem + 3.1vw), 3.66rem);
 }
   
-{
+html {
     box-sizing: border-box;
 }  
   
@@ -269,7 +269,7 @@ body {
   }
   
   .card_title {
-    color: black;
+    color: black;   
     font-size: 1.0rem;
     font-weight: 500;
     letter-spacing: 1px;

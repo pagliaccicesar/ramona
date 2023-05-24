@@ -1,10 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Finger+Paint);
 
 body{
-    margin: 0;
+      margin: 0;
        padding: 0;
-       height: 12vh;      
-       background-color: #fffcf8;        
+       height: 12vh; 
+       background-color: gold;      
+       /*background-color: #fffcf8;   */   
        font-family:'Finger Paint';     
   }
   
@@ -101,11 +102,11 @@ body{
 }
 
 html {
-    
-    background-color: #fffcf8;   
+    background-color: gold;
+    /*background-color: #fffcf8;*/
 }
 
-body {
+body {  
   color: #272727;
   font-family:'Finger Paint';
   font-style: normal;
@@ -166,6 +167,8 @@ img:hover {
   padding: 0;
 }
 
+
+
 .cards_item {
   display: flex;
   padding: 1rem;
@@ -191,7 +194,8 @@ img:hover {
 
 
 .card {  
-  background-color: #fffcf8;
+  background-color: gold;
+  /*background-color: #fffcf8;*/
   border-radius: 0.5rem; 
   display: flex;
   flex-direction: column;
@@ -200,15 +204,22 @@ img:hover {
 
 .card_content {
   padding: 1rem;
-  background: linear-gradient(to bottom left, white 40%, white 100%);
+  background: linear-gradient(to bottom left, gold 40%, gold 100%);
 }
 
-.card_title {
+p {
+  font-family: system-ui, sans-serif;
   color: black;
-  font-size: 1.1rem;
-  font-weight: 500;
+  font-size: small;
+}
+
+.card_title, h3{
+  color: black;
+  font-family: "General Sans", sans-serif;  
+  font-size: 1.0rem;
+  font-weight: 100;
   letter-spacing: 1px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
   margin: 0px;
 }
 
